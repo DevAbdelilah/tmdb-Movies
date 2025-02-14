@@ -200,7 +200,7 @@ export default function MoviesList() {
                 </Stack>
               </Stack>
             </Box>
-            <Stack direction={"row"} flexWrap={"wrap"} gap={8}>
+            <Stack direction={"row"} flexWrap={"wrap"} gap={2}>
               {movies?.map((movie) => (
                 <MovieItem key={movie.id} movie={movie} />
               ))}
